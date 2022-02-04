@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+    h1= title
+    - var pets = ['cat', 'dog']
+    each petName in pets
+        h2= petName
