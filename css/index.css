@@ -1,8 +1,14 @@
+/*Color Pallete
+#F9F7F7
+#DBE2EF
+#3F72AF
+#112D4E*/
+
 .home-div {
     height: 100%;
     width: 100%;
     text-align: center;
-    background-image: url("/img/background/bck3.jpg");
+    background-image: url("../img/background/bck3.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
