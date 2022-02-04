@@ -1,0 +1,33 @@
+.home-div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("/img/background/bck3.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.light-div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #F9F7F7;
+}
+
+.dark-div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #112D4E;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
