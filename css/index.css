@@ -1,0 +1,57 @@
+/*Color Pallete
+#F9F7F7
+#DBE2EF
+#3F72AF
+#112D4E*/
+
+.home-div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("../img/background/bck3.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.light-div {
+    min-height: 100%;
+    width: 100%;
+    padding: 5%;
+    background-color: #F9F7F7;
+}
+
+.dark-div {
+    min-height: 100%;
+    width: 100%;
+    padding: 5%;
+    background-color: #112D4E;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.icon {
+    margin: -100% 10px 0 10px;
+}
+
+.dev-img-div {
+    text-align: center;
+}
+
+.university-logo {
+    max-height: 150px;
+}
+
+.section-title-light {
+    text-align: center;
+    color: white;
+    padding-bottom: 35px;
+}
