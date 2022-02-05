@@ -1,0 +1,13 @@
+extends ../data/awards_data
+
+block awards
+    h1(class='section-title-light') Awards
+
+    ul(class="list-group list-group-flush m-5")
+        each award in awards
+            div(class="list-group-item list-group-item-action p-4")
+                div(class="d-flex w-100 justify-content-between")
+                    h5(class="mb-1")= award.title
+                    small(class="text-muted")= award.year
+                p(class="mb-1")= award.organization
+                small(class="text-muted")= award.description
