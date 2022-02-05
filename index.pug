@@ -1,0 +1,24 @@
+extends base.pug
+
+block content
+    section#home
+        div(class='home-div')
+            include home
+
+    section#bio
+        div(class='light-div')
+            include bio
+
+    section#education
+        div(class='dark-div')
+            include education
+
+    section#experience
+        div(class='light-div')
+            include views/experience
+
+    section#skills
+        div(class='dark-div')
+
+    section#portfolio
+        div(class='light-div')
