@@ -1,0 +1,27 @@
+extends ../data/experience_data
+
+block experience
+
+    h1(class='section-title-dark') Experience
+
+    each job in jobs
+        div(class="card mb-3")
+            div(class="row d-flex flex-wrap align-items-center")
+                div(class="col-md-4 text-center")
+                    img(src=job.logo, class="img-fluid rounded-start company-logo")
+                .col-md-8
+                    .card-body
+                        .p-5
+                            h4(class="card-title")= job.title
+                            h6=job.company
+                            p= job.location
+                            p(class="text-muted")= job.years
+                            em Achievements
+                            ul
+                                each achievement in job.achievements
+                                    li= achievement
+
+
+
+
+
