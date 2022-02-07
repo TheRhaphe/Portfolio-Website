@@ -1,0 +1,12 @@
+extends ../data/courses_data
+
+block courses
+    h1(class='section-title-light') Courses & Certifications
+
+    ul(class="list-group list-group-flush m-5")
+        each course in courses
+            div(class="list-group-item list-group-item-action p-4")
+                div(class="d-flex w-100 justify-content-between")
+                    h5(class="mb-1")= course.title
+                    small(class="text-muted")= course.years
+                p(class="mb-1")= course.organization
