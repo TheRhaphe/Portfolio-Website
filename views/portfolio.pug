@@ -1,0 +1,8 @@
+extends ../data/portfolio_data
+
+block portfolio
+    h1(class='section-title-dark') Portfolio
+
+    ul(class="list-group list-group-flush m-5")
+        each project in projects
+            .card
