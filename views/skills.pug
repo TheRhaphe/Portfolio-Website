@@ -1,0 +1,16 @@
+extends ../data/skills_data
+
+block skills
+    h1(class='section-title-dark') Skills
+
+    each skill_set in skill_sets
+        h3(class="text-center")= skill_set.title
+        .container
+            div(class="row justify-content-center")
+                each skill in skill_set.skills
+                    div(class="col-lg-2 col-md-3 col-sm-4 col-12")
+                        div(class="card text-center m-2")
+                            img(src=skill.logo, class="card-img-top skills-logo")
+                            .card-body
+                                h6= skill.title
+        hr
