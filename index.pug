@@ -1,17 +1,17 @@
-extends base.pug
+extends views/base
 
 block content
     section#home
         div(class='home-div')
-            include home
+            include views/home
 
     section#bio
         div(class='light-div')
-            include bio
+            include views/bio
 
     section#education
         div(class='dark-div')
-            include education
+            include views/education
 
     section#experience
         div(class='light-div')
