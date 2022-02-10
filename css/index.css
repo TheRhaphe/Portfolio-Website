@@ -14,6 +14,26 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 1000px) {
+    .home-div {
+        width: 100%;
+        text-align: center;
+        background: url("../img/background/bck3.jpg") no-repeat center;
+        background-size: cover;
+    }
+    #t1 {
+        position: relative;
+        top: 230px;
+        font-size: 3.5rem;
+    }
+
+    #t2 {
+        position: relative;
+        top: 230px;
+        font-size: x-large;
+    }
+}
+
 .light-div {
     width: 100%;
     padding: 5%;
