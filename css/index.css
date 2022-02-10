@@ -15,14 +15,12 @@
 }
 
 .light-div {
-    min-height: 100%;
     width: 100%;
     padding: 5%;
     background-color: #F9F7F7;
 }
 
 .dark-div {
-    min-height: 100%;
     width: 100%;
     padding: 5%;
     background-color: #112D4E;
@@ -30,11 +28,11 @@
 
 .name {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*margin: 0;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
     color: white;
 }
 
@@ -71,3 +69,76 @@
     object-fit: contain;
     width: 100%;
 }
+
+.socials-div {
+    position: relative;
+    top: 350px;
+}
+
+.social-img {
+    width: 40px;
+    padding: 10px;
+}
+
+#t1 {
+    position: relative;
+    top: 230px;
+}
+
+#t2 {
+    position: relative;
+    top: 230px;
+}
+
+.c1 {
+    width: 25px;
+    margin: 10px;
+    background: url("../img/social/linkedin.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+}
+.c1:hover {
+    background: url("../img/social/linkedin-hover.png") no-repeat center;
+    background-size: cover;
+}
+
+.c2 {
+    width: 25px;
+    margin: 10px;
+    background: url("../img/social/github.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+}
+.c2:hover {
+    background: url("../img/social/github-hover.png") no-repeat center;
+    background-size: cover;
+}
+
+.c3 {
+    width: 25px;
+    margin: 10px;
+    background: url("../img/social/gitlab.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+}
+.c3:hover {
+    background: url("../img/social/gitlab-hover.png") no-repeat center;
+    background-size: cover;
+}
+
+.c4 {
+    width: 25px;
+    margin: 10px;
+    background: url("../img/social/medium.png") no-repeat center;
+    background-size: cover;
+    display: inline-block;
+}
+.c4:hover {
+    background: url("../img/social/medium-hover.png") no-repeat center;
+    background-size: cover;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
