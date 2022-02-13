@@ -14,5 +14,5 @@ block portfolio
                             p(class="card-text")= project.description
                         .card-footer(class='text-center')
                             each skill in project.skills
-                                img(src=skills[skill], class='project-skill-img img-fluid')
+                                img(title=`${skill}`, src=skills[skill], class='project-skill-img img-fluid', data-bs-toggle="tooltip", data-bs-placement="top")
 
