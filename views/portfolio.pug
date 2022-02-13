@@ -8,11 +8,10 @@ block portfolio
             each project in projects
                 .col
                     .card(class="h-100")
-                        //img(src="..." class="card-img-top")
                         .card-body
                             h5(class="card-title")= project.title
                             p(class="card-text")= project.description
                         .card-footer(class='text-center')
                             each skill in project.skills
-                                img(title=`${skill}`, src=skills[skill], class='project-skill-img img-fluid', data-bs-toggle="tooltip", data-bs-placement="top")
+                                img(title=`${skill}`, src=`${skills[skill]}`, class='project-skill-img img-fluid', data-bs-toggle="tooltip", data-bs-placement="top")
 
