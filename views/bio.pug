@@ -5,3 +5,45 @@ div(class='row d-flex flex-wrap align-items-center')
         div(class="container-fluid py-5")
             h1(class="display-5 fw-bold") About Me
             p(class="col fs-4") I have diverse experience in fullstack web and mobile development and Machine Learning. <br><br> Furthermore, I am always looking to use technology to create solutions that improve lives and enhance businesses.
+
+<a type="button" class="btn btn-primary" onclick="openContactForm()">
+Launch demo modal
+</a>
+
+#open-modal.modal-window
+    .text-center(style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);")
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfrjp6hje6iw8j7xAqMfyUr2M0YwGHmI60pZ2yztwGXOU26pA/formResponse" target="_self" id="bootstrapForm" method="POST" >
+        <fieldset>
+        <h2>Contact Me</h2>
+        </fieldset>
+
+        <fieldset>
+        <legend for="1028851029">Name</legend>
+        <div class="form-group">
+        <input id="935950704" type="text" name="entry.935950704" class="form-control" >
+        </div>
+        </fieldset>
+
+        <fieldset>
+        <legend for="92902172">Email*</legend>
+        <div class="form-group">
+        <input id="1415634786" type="text" name="entry.1415634786" class="form-control" required>
+        </div>
+        </fieldset>
+
+        <fieldset>
+        <legend for="1920628891">Message*</legend>
+        <div class="form-group">
+        <textarea id="1951859140" name="entry.1951859140" class="form-control" required></textarea>
+        </div>
+        </fieldset>
+
+        <input type="hidden" name="fvv" value="1">
+        <input type="hidden" name="fbzx" value="215571099849733878">
+
+        <input type="hidden" name="pageHistory" value="0">
+
+        <br>
+        <button class="btn btn-outline-danger" onclick="history.back()">Cancel</Button>
+        <input class="btn btn-primary" type="submit" value="Submit">
+        </form>
